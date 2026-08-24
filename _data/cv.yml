@@ -1,0 +1,83 @@
+cv:
+  name: Calvin Joyce
+  label: Medical Robotics Researcher
+  email: calcoljoy14@gmail.com
+  location: La Jolla, CA
+  image: ""
+  summary: Graduate researcher at UC San Diego's ARCLab (Prof. Michael Yip). Nature co-author and 5x first author (ICRA, ISRR), focusing on autonomy, controls, and learning for patient-contact robots, grounded in years of building the hardware myself.
+
+  social_networks:
+    - network: LinkedIn
+      username: calvin-joyce
+    - network: Google Scholar
+      username: 9i7AGccAAAAJ
+
+  sections:
+    Education:
+      - institution: University of California, San Diego
+        location: La Jolla, CA
+        url: https://ucsd.edu/
+        area: Mechanical Engineering
+        studyType: B.S. & M.S.
+        start_date: 2020
+        end_date: 2027
+        score: "GPA 3.8/4.0"
+        courses: "Robotics; Haptics; Soft Robotics; Linear Control; Mechanical Design; Experimental Techniques"
+        highlights:
+          - B.S. June 2024; M.S. expected June 2027.
+          - Graduate advisor - Prof. Michael C. Yip, Advanced Robotics and Controls Lab (ARCLab).
+
+    Experience:
+      - company: Advanced Robotics and Controls Lab (ARCLab), UC San Diego
+        position: R&D Engineer / Graduate Student Researcher
+        location: La Jolla, CA
+        start_date: 2023-01
+        end_date: present
+        highlights:
+          - "PHABS (project lead; first author, ICRA 2027 submission): first handheld bimanual device to render inter-hand internal force; bilateral teleoperation on an Anvil OpenArm; ACT policy training on haptic vs. no-haptic demonstrations."
+          - "RIC (project lead; first author, ICRA 2027 submission): first framework for direct robotic infant handling; clinical safety thresholds derived with four NICU clinicians; three-way benchmark on a Unitree G1."
+          - "Humanoid Surgery (co-author, Nature 2026): tool-mount system design and mechanical setup for in vivo porcine surgeries."
+          - "Autonomous Catheter Navigation (ARPA-H & DARPA): PPO catheter steering in GPU-physics simulation; three catheter examples for the open-source Newton engine."
+          - "Mentorship: 16+ students across lab projects."
+
+      - company: ArtemisAI Labs
+        position: Mechanical Engineer
+        location: La Jolla, CA
+        start_date: 2026-01
+        end_date: present
+        highlights:
+          - Redesigned a NICU bedside camera mount for clinical deployment; it now fields the cameras for NOVA, a Phase II neonatal monitoring trial at Mount Sinai.
+
+      - company: Triton Robotics, UC San Diego
+        position: Team President / Advisor
+        location: La Jolla, CA
+        start_date: 2020-06
+        end_date: 2023-06
+        highlights:
+          - Scaled the team 20 to 80+ members and diversity 15% to 35%+; led 17 team leads; obtained national nonprofit status, funding, and permanent lab space.
+
+    Patents:
+      - name: Haptic Shoulder
+        date: in progress
+        highlights:
+          - Biomechanically accurate shoulder phantom for pHRI testing. Provisional patent (co-inventor).
+      - name: PHABS
+        date: in preparation
+        highlights:
+          - Handheld bimanual haptic teleoperation device with inter-hand force rendering (lead inventor).
+      - name: Helping Hand
+        date: in progress
+        highlights:
+          - Catheter-tip end-effector for grasping and cutting. Provisional patent (contributing inventor).
+
+    Skills:
+      - label: Medical Robotics & pHRI
+        details: Haptics & bilateral teleoperation, catheter/continuum robots, clinical safety thresholds, OptiTrack
+      - label: Software & Control
+        details: Python, C++, MATLAB, PyTorch, ROS 2; imitation learning (ACT), PPO, MPPI; NVIDIA Warp/Newton
+      - label: Hardware
+        details: SolidWorks + FEA, Fusion 360, DFMA, resin/FDM printing, laser cutting; capstan drives, motor drivers, sensors
+
+    Memberships:
+      - name: IEEE Robotics and Automation Society (RAS)
+        date: 2023 - present
