@@ -15,12 +15,8 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
     </div>
 </div>
 
-<div class="row justify-content-center">
-    <div class="col-sm-10">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_built.jpg" title="ARCSnake V2 fully assembled" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">ARCSnake V2 fully assembled with its land screw shells on: screw-propelled segments joined by actuated U-joints, so the robot both crawls and swims.</div>
-    </div>
-</div>
+{% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_system.jpg" title="ARCSnake V2 system and mechanical design" class="img-fluid rounded z-depth-1" %}
+<div class="caption">ARCSnake V2 fully assembled with its land screw shells on (top), above the mechanical design: exploded segment views on the left, then (A) the screw drivetrain, where a belt-driven sun gear turns a planetary gear meshing with the screw shell acting as ring gear; (B) the waterproofing, with shaft seals, cable penetrators, gaskets, positive-pressure inlet, and chamber o-rings; (C) the U-joint and its cable routing; and (D) the buoyancy bladder system.</div>
 
 I also led electrical and mechanical integration for validating the full robot in underwater testing.
 
@@ -84,6 +80,6 @@ A 10-DOF joint-matching teleoperation controller I built to command ARCSnake V2'
         {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_hanging.jpg" title="Voodoo Doll on its rig" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_doll.jpg" title="A single joint module" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_module.jpg" title="A single joint module" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
