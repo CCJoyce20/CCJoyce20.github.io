@@ -23,6 +23,17 @@ PHABS is my answer to that: a handheld bimanual teleoperation device built speci
 
 **The hardware**, in one line: capstan-driven pinch actuators and a gimbal-motor squeeze stage, with force rendering verified against a reference load cell so the numbers in the dataset mean something.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/phabs_capstan.png" title="Capstan drive mechanism" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The capstan drive: a Maxon DC motor turns a compound pulley-capstan wound with steel cable, giving low-friction, backlash-free force transmission.</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/phabs_inuse.jpg" title="Pilot study" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Pilot study: an operator pinching through the device while force is rendered back to the hand.</div>
+    </div>
+</div>
+
 Patent in preparation. First-author paper targeted at ICRA 2027.
 
 <!-- TODO: add photos - device hero shot, teleop in action, force trace plot -->

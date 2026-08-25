@@ -11,6 +11,9 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 {% include figure.liquid loading="eager" path="assets/img/projects/arcsnake.jpg" title="ARCSnake amphibious testing" class="img-fluid rounded z-depth-1" %}
 
+{% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_full.png" title="ARCSnake V2 full system" class="img-fluid rounded z-depth-1" %}
+<div class="caption">The full ARCSnake V2 system: screw-propelled segments joined by actuated joints, so the robot both crawls and swims.</div>
+
 ### System design improvements
 
 Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%**. The gains came from three places: raising the torque ratio, aligning the belt drive, and cutting parasitic friction — shortening the whole drive stack and relieving surfaces that were rubbing. I built a physical testbed to validate each change rather than trusting the CAD.
@@ -21,7 +24,7 @@ Across ARCSnake V2's development I worked on the propulsion system, **increasing
 {% include figure.liquid loading="lazy" path="assets/img/projects/belt_drive.png" title="Screw block belt drive" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The screw block drive: the belt (green) transmits motor torque to the screw. Aligning this drive and shortening the stack around it is where the torque gains came from.</div>
 
-### Screw characterization testbed — ICRA 2023
+### The screw testbed --- *Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media*
 
 To find out which screw parameters actually matter, I engineered a mobile testbed that isolates a single screw sub-unit and measures its performance across media: constrained axial measurement with a 6-DOF force-torque sensor, a swappable bottom module so different screw configurations drop straight in, built-in electronics bays and wiring paths, and SolidWorks FEA validation before fabrication. It is portable enough to run in real terrain rather than only in a lab.
 
@@ -34,7 +37,10 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
     </div>
 </div>
 
-The resulting characterization across gravel, grass, sand, wood chips, dirt, and concrete became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://arxiv.org/abs/2301.10878) (co-first author, ICRA 2023).
+{% include figure.liquid loading="lazy" path="assets/img/projects/screw_media.png" title="Screw testing across media" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Screws characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations.</div>
+
+That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://arxiv.org/abs/2301.10878) (co-first author, ICRA 2023).
 
 ### NASU — ISRR 2024
 
