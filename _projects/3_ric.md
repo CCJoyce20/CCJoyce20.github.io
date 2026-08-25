@@ -7,12 +7,33 @@ importance: 3
 category: medical robotics
 ---
 
-**Can a robot safely pick up a baby?** Nobody had asked that question in a way you could answer with numbers, so we built the framework to answer it.
+Roughly **500,000 US infants** are admitted to a neonatal intensive care unit each year, into care that is among the most physically and cognitively demanding in medicine — and among the least automated. The World Health Organization projects a shortage of **11 million healthcare workers by 2030**, and in the NICU specifically, burnout reaches **37%**.
 
-NICU nurses face 37% burnout, yet infant care is one of the least automated corners of healthcare, because a neonate tolerates a fraction of adult mechanical loads and no robot has ever been evaluated against the clinical bar. RIC targets the NICU's most frequent physical interventions: **bimanual infant pickup** and **CPAP nasal-mask repositioning**.
+Our clinical partners have already started asking when they can have a humanoid robot of their own. So we asked the prerequisite question: **can current robots physically handle an infant safely enough to help?**
 
-**What I built:** working with four NICU clinicians, we formalized safety as continuously measurable thresholds — cervical pitch and head acceleration for pickup; contact pressure, eye/mouth exclusion zones, and a PEEP-interruption time budget for CPAP. On a Unitree G1 humanoid, we benchmark direct-human, teleoperated, and autonomous (ACT) execution using a REMI-manikin OptiTrack pipeline and a pressure-sensing molded CPAP mask, verifying every trial against the thresholds.
+### Why nobody had answered it
 
-First-author paper targeted at ICRA 2027.
+Existing automation in infant care monitors babies or passively soothes them. Nothing touches them. The obstacle isn't the motion — it's the tolerances. A neonate withstands a fraction of the mechanical load an adult can, and the head must stay within a narrow angular range throughout a lift or the airway is compromised. Those limits are clinically specified and unforgiving, and they are the reason infant handling has stayed manual.
 
-<!-- TODO: add photos - G1 lifting REMI, CPAP mask with FSRs, OptiTrack setup -->
+We picked the two interventions that matter most:
+
+**Bimanual pickup.** Infants in the NICU are handled for roughly **2.5 hours every day**, and a pickup bookends nearly every one of those episodes — weighing, feeding, imaging, line management, repositioning all begin and end with the infant being lifted.
+
+**CPAP nasal-mask repositioning.** CPAP is the first-line noninvasive therapy for preterm infants in respiratory distress, and nasal masks need frequent nurse-initiated repositioning — our clinical partners reported up to **50 times a day** — to preserve the seal. Each adjustment is a force balance: too little and the seal leaks; too much and contact pressure causes nasal skin breakdown, which affects a majority of infants on long-duration support.
+
+The two fail in completely different ways — inertial and postural on one side, sustained contact pressure on the other — which is exactly why a safety methodology for infant handling has to generalize beyond a single task.
+
+### Turning clinical judgment into numbers
+
+I worked with **four neonatal clinicians** — a NICU nurse, a NICU physician, and two neonatal respiratory therapists — plus the literature they pointed us to, to convert "safe handling" into quantities you can measure continuously during a trial:
+
+- **Pickup:** cervical pitch (the head–torso angle that governs airway patency) and head acceleration.
+- **CPAP:** interface pressure at the nasal bridge and philtrum, geometric exclusion zones around the eyes and mouth, and a hard time budget on PEEP interruption, since even brief losses of positive pressure risk lung de-recruitment.
+
+### Measuring what a robot actually does
+
+We benchmark three ways of performing each task — **direct human handling, teleoperation, and an autonomous learned policy (ACT)** — on a Unitree G1 humanoid, using an instrumented infant manikin tracked by OptiTrack, and a Fisher & Paykel nasal mask I rebuilt with embedded force sensors to read interface pressure at the contact points clinicians actually worry about. Every trial is verified against the thresholds above, so "safe" is a measurement rather than an impression.
+
+Project lead and first author; targeted at ICRA 2027.
+
+<!-- TODO: add photos - G1 lifting the manikin, instrumented CPAP mask, OptiTrack setup -->
