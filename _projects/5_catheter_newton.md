@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Autonomous Catheter Navigation
-description: "In progress — RL for endovascular robotics (ARPA-H & DARPA project)"
+description: "In progress: RL for endovascular robotics (ARPA-H & DARPA project)"
 # img: assets/img/projects/catheter.jpg  # TODO: add cover frame
 importance: 5
 category: research

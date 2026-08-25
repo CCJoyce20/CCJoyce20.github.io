@@ -11,20 +11,20 @@ Purpose-built surgical robots cost millions and do one thing. A general-purpose 
 
 ---
 
-### 1. Humanoids in Hospitals — can a humanoid use medical tools at all?
+### 1. Humanoids in Hospitals: can a humanoid use medical tools at all?
 
 The [first study](https://arxiv.org/abs/2503.12725) (arXiv 2025, co-second author) asked the prerequisite question: can a humanoid surrogate perform dexterous medical interventions using the equipment clinicians already use? It characterized humanoid capability against the demands of real clinical tasks.
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/humanoids_tasks.jpg" title="Humanoid medical task study" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The medical interventions evaluated in the study — ultrasound, physical exam, bag-valve-mask ventilation, airway management, obstetric delivery, suturing, and oxygen delivery — performed by a humanoid on manikins and simulators.</div>
+<div class="caption">The medical interventions evaluated in the study, ultrasound, physical exam, bag-valve-mask ventilation, airway management, obstetric delivery, suturing, and oxygen delivery, performed by a humanoid on manikins and simulators.</div>
 
-**My contribution:** I designed the mount system that lets a humanoid operate standard medical tools — optimizing mass and center of mass, verifying rigidity under load, and validating it in bench and simulation studies. That mount is the piece of hardware the next two papers are built on.
+**My contribution:** I designed the mount system that lets a humanoid operate standard medical tools, optimizing mass and center of mass, verifying rigidity under load, and validating it in bench and simulation studies. That mount is the piece of hardware the next two papers are built on.
 
-### 2. LapSurgie — teleoperated handheld laparoscopy
+### 2. LapSurgie: teleoperated handheld laparoscopy
 
 [LapSurgie](https://arxiv.org/abs/2510.03529) (ICRA 2026) took the platform into laparoscopy: a humanoid holding handheld laparoscopic instruments under teleoperation, with the remote-center-of-motion constraint enforced at the port. I contributed mechanical work to this version and helped present it at ICRA 2026.
 
-### 3. In vivo feasibility — *Nature*, 2026
+### 3. In vivo feasibility: *Nature*, 2026
 
 The [*Nature* study](https://doi.org/10.1038/s41586-026-10796-x) is the full evaluation: benchtop characterization, dry-lab user studies across surgical experience levels, and **in vivo porcine surgeries**.
 

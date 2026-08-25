@@ -1,13 +1,13 @@
 ---
 layout: page
 title: ARCSnake
-description: "Amphibious screw-propelled snake robot with NASA JPL — IROS 2026, ISRR 2024, ICRA 2023"
+description: "Amphibious screw-propelled snake robot with NASA JPL: IROS 2026, ISRR 2024, ICRA 2023"
 img: assets/img/projects/arcsnake.jpg
 importance: 7
 category: research
 ---
 
-Four years on an amphibious, screw-propelled snake robot developed with NASA JPL, spanning my first paper to a full-system publication at [IROS 2026](https://arxiv.org/abs/2511.11970). Screw propulsion is one of the few locomotion methods that works across sand, water, gravel, and mud without changing hardware — which is why it was proposed for exploring the subsurface ocean of Saturn's moon Enceladus.
+Four years on an amphibious, screw-propelled snake robot developed with NASA JPL, spanning my first paper to a full-system publication at [IROS 2026](https://arxiv.org/abs/2511.11970). Screw propulsion is one of the few locomotion methods that works across sand, water, gravel, and mud without changing hardware, which is why it was proposed for exploring the subsurface ocean of Saturn's moon Enceladus.
 
 {% include figure.liquid loading="eager" path="assets/img/projects/arcsnake.jpg" title="ARCSnake amphibious testing" class="img-fluid rounded z-depth-1" %}
 
@@ -18,7 +18,7 @@ I also led electrical and mechanical integration for validating the full robot i
 
 ### System design improvements
 
-Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%**. The gains came from three places: raising the torque ratio, aligning the belt drive, and cutting parasitic friction — shortening the whole drive stack and relieving surfaces that were rubbing. I built a physical testbed to validate each change rather than trusting the CAD.
+Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%**. The gains came from three places: raising the torque ratio, aligning the belt drive, and cutting parasitic friction, shortening the whole drive stack and relieving surfaces that were rubbing. I built a physical testbed to validate each change rather than trusting the CAD.
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/belt_drive.png" title="Screw block belt drive" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The screw block drive: the belt (green) transmits motor torque to the screw. Aligning this drive and shortening the stack around it is where the torque gains came from.</div>
@@ -45,7 +45,7 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
 
 That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://ieeexplore.ieee.org/document/10160777) (co-first author, ICRA 2023). The testbed has since been reused by the lab for further screw-locomotion studies beyond that paper.
 
-### NASU — ISRR 2024
+### NASU: ISRR 2024
 
 [NASU (Novel Actuating Screw Unit)](https://arxiv.org/abs/2310.00184) is the first Archimedes-screw locomotion design with a **dynamically reconfigurable angle of attack**, letting one screw retune its pitch for the medium it is currently in rather than compromising across all of them. The mechanism is origami-inspired: a Kresling unit produces the coupled rotation and translation that changes the screw pitch (first author, ISRR 2024).
 
@@ -57,11 +57,11 @@ That characterization became [Mobility Analysis of Screw-Based Locomotion and Pr
 <video controls preload="metadata" style="width:100%;border-radius:8px;">
     <source src="/assets/video/isrr2024_nasu.mp4" type="video/mp4">
 </video>
-<div class="caption">NASU — ISRR 2024 video (<a href="https://www.youtube.com/watch?v=6ElKiwgMTSA">also on YouTube</a>)</div>
+<div class="caption">NASU, ISRR 2024 video (<a href="https://www.youtube.com/watch?v=6ElKiwgMTSA">also on YouTube</a>)</div>
 
 ### The Voodoo Doll
 
-A 10-DOF joint-matching teleoperation controller I built to command ARCSnake V2's joint positions — lockable U-joints with magnetic encoders, so an operator poses the controller and the robot mirrors it.
+A 10-DOF joint-matching teleoperation controller I built to command ARCSnake V2's joint positions, lockable U-joints with magnetic encoders, so an operator poses the controller and the robot mirrors it.
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_full_rot.jpg" title="The full 10-DOF Voodoo Doll controller" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The full 10-DOF controller laid out.</div>
