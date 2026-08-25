@@ -10,11 +10,16 @@ horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<div style="margin-bottom:1.5rem;">
+  <strong>Jump to:</strong>
+  {% for c in page.display_categories %}<a href="#{{ c | slugify }}" style="margin-right:0.9rem;">{{ c }}</a>{% endfor %}
+</div>
+
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
+  <a id="{{ category | slugify }}" href=".#{{ category | slugify }}">
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}

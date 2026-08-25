@@ -24,10 +24,10 @@ latest_posts:
   enabled: false
 ---
 
+**Seeking a medical robotics R&D / New Product Development internship — available January–September 2027.**
+
 I build robots that physically interact with people, and the hard part isn't the motion, it's the contact.
 
 At UC San Diego's [ARCLab](https://ucsdarclab.com) (advisor: Prof. Michael Yip), I lead **PHABS**, a handheld bimanual haptic device capturing force-annotated demonstrations for imitation learning, and **RIC**, the first framework for robots that physically handle infants. I'm a co-author on the first [*Nature* study of humanoid robots in surgery](https://doi.org/10.1038/s41586-026-10796-x), and my redesigned camera mount fields a Phase II neonatal monitoring trial at Mount Sinai.
 
 I started in mechanical design and now work up the stack: autonomy, controls, and robot learning, deployed on real hardware.
-
-Seeking **medical robotics R&D / New Product Development internships, January–September 2027**.

@@ -11,6 +11,8 @@ Roughly **500,000 US infants** are admitted to a neonatal intensive care unit ea
 
 Our clinical partners have already started asking when they can have a humanoid robot of their own. So we asked the prerequisite question: **can current robots physically handle an infant safely enough to help?**
 
+> **This project is in active development.** The paper is targeted at ICRA 2027; the results and figures below are work in progress.
+
 ### Why nobody had answered it
 
 Existing automation in infant care monitors babies or passively soothes them. Nothing touches them. The obstacle isn't the motion — it's the tolerances. A neonate withstands a fraction of the mechanical load an adult can, and the head must stay within a narrow angular range throughout a lift or the airway is compromised. Those limits are clinically specified and unforgiving, and they are the reason infant handling has stayed manual.

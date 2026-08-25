@@ -15,6 +15,9 @@ Robots that reposition, dress, or rescue people have to move human limbs — but
 
 The shoulder isn't a simple ball joint. Its reachable range depends on the configuration you're already in — how far you can rotate the arm changes with how far it's raised, and the limits are *coupled* across axes. A device that renders fixed per-axis limits doesn't feel like a shoulder.
 
+{% include figure.liquid loading="lazy" path="assets/img/projects/hs_limits.jpg" title="Complex coupled joint limits" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Shoulder joint limits are coupled: the reachable range on one axis depends on where the others are.</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="lazy" path="assets/img/projects/hs_human_range.png" title="Human shoulder configuration space" class="img-fluid rounded z-depth-1" %}
@@ -33,16 +36,8 @@ The shoulder isn't a simple ball joint. Its reachable range depends on the confi
 
 An inverted U-joint arrangement gives the device its anatomically-shaped workspace, with one motor-encoder module per anatomical degree of freedom — so actuator space maps directly onto shoulder joint space, and there's no kinematic solving between what the motors do and what the joint does.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_mechanism.png" title="Mechanism layout" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Inverted U-joint, belt/pulley drive, motors, and limit switches.</div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_real.png" title="Built device" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">The assembled device.</div>
-    </div>
-</div>
+{% include figure.liquid loading="lazy" path="assets/img/projects/hs_renderreal.jpg" title="Singular joint center" class="img-fluid rounded z-depth-1" %}
+<div class="caption">The inverted U-joint places all rotation axes through a single joint center that matches the human shoulder's, in CAD and in the built device.</div>
 
 ### Testing robots on it
 
