@@ -2,7 +2,7 @@
 layout: page
 title: Haptic Shoulder
 description: "Biomechanically accurate shoulder phantom for pHRI — ICRA 2025 (co-first author), provisional patent"
-# img: assets/img/projects/haptic_shoulder.jpg  # TODO: add cover image
+img: assets/img/projects/haptic_shoulder.jpg
 importance: 6
 category: medical robotics
 ---
