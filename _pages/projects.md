@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Robots I have built, from surgical humanoids to screw-propelled snakes.
+description: Robots I have helped design and build, from surgical humanoids to screw-propelled snakes.
 nav: true
 nav_order: 3
 display_categories: [medical robotics, other robotics]

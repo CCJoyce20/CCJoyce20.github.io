@@ -1,11 +1,13 @@
 ---
 layout: page
-title: RIC — Robotic Infant Care
-description: "First framework for direct robotic infant handling (project lead; first author, ICRA 2027 submission)"
+title: "RIC: Can Robots Handle Infants?"
+description: "Robotic Infant Care — the first framework for robots that physically handle babies (project lead; first author, ICRA 2027)"
 # img: assets/img/projects/ric.jpg  # TODO: add cover image
 importance: 3
 category: medical robotics
 ---
+
+**Can a robot safely pick up a baby?** Nobody had asked that question in a way you could answer with numbers, so we built the framework to answer it.
 
 NICU nurses face 37% burnout, yet infant care is one of the least automated corners of healthcare, because a neonate tolerates a fraction of adult mechanical loads and no robot has ever been evaluated against the clinical bar. RIC targets the NICU's most frequent physical interventions: **bimanual infant pickup** and **CPAP nasal-mask repositioning**.
 
