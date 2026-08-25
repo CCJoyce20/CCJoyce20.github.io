@@ -18,6 +18,9 @@ Across ARCSnake V2's development I worked on the propulsion system, **increasing
 {% include figure.liquid loading="lazy" path="assets/img/projects/screw_shell.jpg" title="Screw shell design" class="img-fluid rounded z-depth-1" %}
 <div class="caption">Screw block redesign — a shorter, cleaner stack with less rubbing surface.</div>
 
+{% include figure.liquid loading="lazy" path="assets/img/projects/belt_drive.png" title="Screw block belt drive" class="img-fluid rounded z-depth-1" %}
+<div class="caption">The screw block drive: the belt (green) transmits motor torque to the screw. Aligning this drive and shortening the stack around it is where the torque gains came from.</div>
+
 ### Screw characterization testbed — ICRA 2023
 
 To find out which screw parameters actually matter, I engineered a mobile testbed that isolates a single screw sub-unit and measures its performance across media: constrained axial measurement with a 6-DOF force-torque sensor, a swappable bottom module so different screw configurations drop straight in, built-in electronics bays and wiring paths, and SolidWorks FEA validation before fabrication. It is portable enough to run in real terrain rather than only in a lab.
