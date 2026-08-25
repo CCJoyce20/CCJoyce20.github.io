@@ -13,4 +13,15 @@ Published at [ICRA 2025](https://arxiv.org/abs/2409.13905) (co-first author). Pr
 
 <iframe src="https://www.youtube.com/embed/MKJiqIRkErY" style="width:100%;aspect-ratio:16/9;border:0;border-radius:8px;" allowfullscreen title="Haptic Shoulder video"></iframe>
 
-<!-- TODO: add photos - phantom hardware, robot interacting with the shoulder -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/haptic_coupling.jpg" title="Coupled joint limits" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The rendered range of motion changes with humeral rotation, reproducing the coupled joint limits of the human shoulder.</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/haptic_cspace.jpg" title="Configuration space" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The device's mechanical configuration space exceeds the human shoulder's, so the rendered limits — not the mechanism — define the boundary.</div>
+    </div>
+</div>
+
+<!-- TODO: add cover image (Cover_new (2) - haptic shoulder paper cover) as assets/img/projects/haptic_shoulder.jpg, then uncomment img: in front matter -->

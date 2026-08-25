@@ -13,6 +13,13 @@ As President and later Advisor of Triton Robotics at UC San Diego, I scaled the 
 
 I led 17 team leads with OKRs, roadmaps, and stand-ups, founded the Business, Marketing, and Project Development teams, and secured nationally recognized nonprofit status, $3K in initial funding, a corporate sponsorship pipeline, and permanent lab space.
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/triton_arena.jpg" title="Triton Robotics robots in the RoboMaster arena" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/triton_arena.jpg" title="Triton Robotics at its first competition" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/triton_serializer.jpg" title="The Serializer robot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <!-- TODO: add photos - team photo, robots, lab space -->

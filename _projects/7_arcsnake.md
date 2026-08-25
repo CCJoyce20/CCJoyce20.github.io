@@ -13,15 +13,17 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 **My contributions:** increased propulsion-screw output torque 40% by building a testbed that isolated friction and alignment losses ([co-first author, ICRA 2023](https://arxiv.org/abs/2301.10878)); designed [NASU](https://arxiv.org/abs/2310.00184), the first Archimedes-screw locomotion unit with a dynamically reconfigurable angle of attack for sand, water, and dirt (first author, ISRR 2024); built the "Voodoo Doll," a 10-DOF teleoperation controller with lockable U-joints and magnetic encoders; and led electrical/mechanical integration for underwater testing.
 
+**The Voodoo Doll**: a 10-DOF joint-matching teleoperation controller — lockable U-joints with magnetic encoders command ARCSnake V2's joint positions.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_full.jpg" title="Full ARCSnake V2 robot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_full.jpg" title="The full 10-DOF Voodoo Doll controller" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_lab.jpg" title="ARCSnake on the integration gantry" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_hanging.jpg" title="Voodoo Doll on its rig" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_internals.jpg" title="Inside a screw segment" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_doll.jpg" title="A single Voodoo Doll joint module" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -32,7 +34,7 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
         {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed.jpg" title="Experimental mobile screw locomotion testbed" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_fea.jpg" title="SolidWorks FEA of the testbed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_fea.png" title="SolidWorks FEA of the testbed" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -40,17 +42,14 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_cad.jpg" title="NASU CAD" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_cad.jpg" title="NASU in CAD" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_testbed.jpg" title="NASU on the mobile testbed" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_doll.jpg" title="Voodoo Doll teleoperation joint module" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_mech.jpg" title="NASU mechanism overview" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/nasu_media.jpg" title="NASU across media: gravel, sand, rocks, grass, mulch" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="lazy" path="assets/img/projects/nasu_media.png" title="NASU across media: gravel, sand, rocks, grass, mulch" class="img-fluid rounded z-depth-1" %}
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
