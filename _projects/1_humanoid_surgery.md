@@ -13,6 +13,6 @@ Can a general-purpose humanoid meet the precision, control, and safety bar of mi
 
 This line of work grew out of [Humanoids in Hospitals](https://arxiv.org/abs/2503.12725) (arXiv 2025, co-second author) and [LapSurgie](https://arxiv.org/abs/2510.03529) (ICRA 2026), both of which I contributed to.
 
-<a href="https://www.youtube.com/watch?v=QrHq9Xr1Bxk">Watch the Surgie video</a>.
+<iframe src="https://www.youtube.com/embed/QrHq9Xr1Bxk" style="width:100%;aspect-ratio:16/9;border:0;border-radius:8px;" allowfullscreen title="Humanoids in Hospitals / Surgie video"></iframe>
 
 <!-- TODO: add photos - tool mount CAD, OR setup, G1 with laparoscope -->

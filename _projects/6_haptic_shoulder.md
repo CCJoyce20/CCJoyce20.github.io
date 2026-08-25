@@ -11,4 +11,6 @@ Testing physical human–robot interaction on people is slow and risky, so we bu
 
 Published at [ICRA 2025](https://arxiv.org/abs/2409.13905) (co-first author). Provisional patent in progress.
 
+<iframe src="https://www.youtube.com/embed/MKJiqIRkErY" style="width:100%;aspect-ratio:16/9;border:0;border-radius:8px;" allowfullscreen title="Haptic Shoulder video"></iframe>
+
 <!-- TODO: add photos - phantom hardware, robot interacting with the shoulder -->
