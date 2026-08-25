@@ -35,3 +35,7 @@ I started in mechanical design and now work up the stack: autonomy, controls, an
 ### Why this work
 
 When Hurricane Sandy hit New Jersey, my grandparents could not evacuate: my grandfather had suffered strokes and could no longer walk on his own. I had just talked my way onto my school's robotics team a year early, and I remember being certain that if I had been older and known more, I could have built something to get them out. That thought is why I went into engineering, and it is why the questions I keep returning to are about robots helping people who cannot help themselves — which, it turns out, is mostly a question about how a machine can safely touch someone.
+
+### Outside the lab
+
+I cook and bake constantly, mostly reverse-engineering things to be lower-calorie and higher-protein than they have any right to be. Otherwise I'm in the gym lifting, slowly talking myself into running, or playing whatever sport I can get a group together for — soccer, basketball, pickleball — with hiking when I want something slower. I support Manchester United and Williams Racing, which between them have taught me more about patience than any research project.
