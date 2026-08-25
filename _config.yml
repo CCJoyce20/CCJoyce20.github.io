@@ -10,10 +10,7 @@ contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Calvin Joyce, medical robotics researcher at UC San Diego's ARCLab: haptic teleoperation, pHRI safety, and robot learning for systems that physically contact patients.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+footer_text: ""
 keywords: medical robotics, haptics, teleoperation, pHRI, robot learning, imitation learning, UCSD, ARCLab, mechanical engineering
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
