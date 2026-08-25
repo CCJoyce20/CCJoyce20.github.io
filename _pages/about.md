@@ -31,3 +31,7 @@ I build robots that physically interact with people, and the hard part isn't the
 At UC San Diego's [ARCLab](https://ucsdarclab.com) (advisor: Prof. Michael Yip), I lead **PHABS**, a handheld bimanual haptic device capturing force-annotated demonstrations for imitation learning, and **RIC**, the first framework for robots that physically handle infants. I'm a co-author on the first [*Nature* study of humanoid robots in surgery](https://doi.org/10.1038/s41586-026-10796-x), and my redesigned camera mount fields a Phase II neonatal monitoring trial at Mount Sinai.
 
 I started in mechanical design and now work up the stack: autonomy, controls, and robot learning, deployed on real hardware.
+
+### Why this work
+
+When Hurricane Sandy hit New Jersey, my grandparents could not evacuate: my grandfather had suffered strokes and could no longer walk on his own. I had just talked my way onto my school's robotics team a year early, and I remember being certain that if I had been older and known more, I could have built something to get them out. That thought is why I went into engineering, and it is why the questions I keep returning to are about robots helping people who cannot help themselves — which, it turns out, is mostly a question about how a machine can safely touch someone.
