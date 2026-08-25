@@ -43,7 +43,7 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
 </div>
 <div class="caption">Screws characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations.</div>
 
-That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://arxiv.org/abs/2301.10878) (co-first author, ICRA 2023).
+That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://ieeexplore.ieee.org/document/10160777) (co-first author, ICRA 2023). The testbed has since been reused by the lab for further screw-locomotion studies beyond that paper.
 
 ### NASU — ISRR 2024
 
@@ -57,7 +57,7 @@ That characterization became [Mobility Analysis of Screw-Based Locomotion and Pr
 <video controls preload="metadata" style="width:100%;border-radius:8px;">
     <source src="/assets/video/isrr2024_nasu.mp4" type="video/mp4">
 </video>
-<div class="caption">NASU — ISRR 2024 video</div>
+<div class="caption">NASU — ISRR 2024 video (<a href="https://www.youtube.com/watch?v=6ElKiwgMTSA">also on YouTube</a>)</div>
 
 ### The Voodoo Doll
 
