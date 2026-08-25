@@ -7,7 +7,11 @@ importance: 8
 category: leadership & coursework
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/projects/triton.jpg" title="Triton Robotics RoboMaster robots" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-9">
+        {% include figure.liquid loading="eager" path="assets/img/projects/triton.jpg" title="Triton Robotics RoboMaster robots" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 As President and later Advisor of Triton Robotics at UC San Diego, I scaled the team from 20 to 80+ members and grew the proportion of non-male members from 15% to over 35%, through formalized onboarding, DEI partnerships, and targeted recruiting (including outreach at the UCSD Women's Center).
 

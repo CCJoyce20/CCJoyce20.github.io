@@ -51,7 +51,7 @@ We benchmark three ways of performing each task, **direct human handling, teleop
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-sm-5">
+    <div class="col-sm-4">
         {% include figure.liquid loading="lazy" path="assets/img/projects/ric_zones.jpg" title="Facial safety zones" class="img-fluid rounded z-depth-1" %}
         <div class="caption">The safety map on the infant's face: red exclusion zones over the eyes and mouth, yellow pressure-sensitive areas, and the green nasal target the mask must reach.</div>
     </div>

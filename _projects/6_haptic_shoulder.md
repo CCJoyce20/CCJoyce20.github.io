@@ -9,7 +9,11 @@ category: research
 
 Robots that reposition, dress, or rescue people have to move human limbs, but developing those behaviors means testing them on humans, which is slow, risky, and hard to repeat. Medical training has an answer for this: the phantom, a stand-in body you can practice on. We built the robotics equivalent for the shoulder.
 
-{% include figure.liquid loading="eager" path="assets/img/projects/haptic_shoulder.jpg" title="Haptic Shoulder device" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-7">
+        {% include figure.liquid loading="eager" path="assets/img/projects/haptic_shoulder.jpg" title="Haptic Shoulder device" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### Why the shoulder is hard
 
@@ -53,8 +57,12 @@ An inverted U-joint arrangement gives the device its anatomically-shaped workspa
 
 ### Testing robots on it
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/hs_experiment.png" title="Robot interaction experiment" class="img-fluid rounded z-depth-1" %}
-<div class="caption">A robot manipulating the phantom arm, pHRI planning tested and deployed on real hardware without a human subject in the loop.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-10">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_experiment.png" title="Robot interaction experiment" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">A robot manipulating the phantom arm, pHRI planning tested and deployed on real hardware without a human subject in the loop.</div>
+    </div>
+</div>
 
 Published at [ICRA 2025](https://ieeexplore.ieee.org/document/11127862) (co-first author). Provisional patent in progress.
 

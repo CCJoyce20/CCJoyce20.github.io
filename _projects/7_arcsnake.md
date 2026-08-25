@@ -9,7 +9,11 @@ category: research
 
 Four years on an amphibious, screw-propelled snake robot developed with NASA JPL, spanning my first paper to a full-system publication at [IROS 2026](https://arxiv.org/abs/2511.11970). Screw propulsion is one of the few locomotion methods that works across sand, water, gravel, and mud without changing hardware, which is why it was proposed for exploring the subsurface ocean of Saturn's moon Enceladus.
 
-{% include figure.liquid loading="eager" path="assets/img/projects/arcsnake.jpg" title="ARCSnake amphibious testing" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center">
+    <div class="col-sm-9">
+        {% include figure.liquid loading="eager" path="assets/img/projects/arcsnake.jpg" title="ARCSnake amphibious testing" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 <div class="row justify-content-center">
     <div class="col-sm-6">
@@ -68,8 +72,12 @@ Screws were characterized across gravel, grass, sand, wood chips, dirt, and conc
 
 A 10-DOF joint-matching teleoperation controller I built to command ARCSnake V2's joint positions, lockable U-joints with magnetic encoders, so an operator poses the controller and the robot mirrors it.
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_full_rot.jpg" title="The full 10-DOF Voodoo Doll controller" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The full 10-DOF controller laid out.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-10">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_full_rot.jpg" title="The full 10-DOF Voodoo Doll controller" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The full 10-DOF controller laid out.</div>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
