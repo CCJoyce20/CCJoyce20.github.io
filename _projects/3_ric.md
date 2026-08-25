@@ -2,7 +2,7 @@
 layout: page
 title: "RIC: Can Robots Handle Infants?"
 description: "Robotic Infant Care — the first framework for robots that physically handle babies (project lead; first author, ICRA 2027)"
-# img: assets/img/projects/ric.jpg  # TODO: add cover image
+img: assets/img/projects/ric.png
 importance: 3
 category: medical robotics
 ---
@@ -23,6 +23,9 @@ We picked the two interventions that matter most:
 
 The two fail in completely different ways — inertial and postural on one side, sustained contact pressure on the other — which is exactly why a safety methodology for infant handling has to generalize beyond a single task.
 
+{% include figure.liquid loading="eager" path="assets/img/projects/ric.png" title="Safe and unsafe infant pickup" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Left: a person lifting the instrumented manikin. Right: the Unitree G1 doing the same. The dashed line is head–torso pitch — the red case exceeds the clinical limit and compromises the airway; the green case stays within it, with the hand supporting both neck and back.</div>
+
 ### Turning clinical judgment into numbers
 
 I worked with **four neonatal clinicians** — a NICU nurse, a NICU physician, and two neonatal respiratory therapists — plus the literature they pointed us to, to convert "safe handling" into quantities you can measure continuously during a trial:
@@ -36,4 +39,13 @@ We benchmark three ways of performing each task — **direct human handling, tel
 
 Project lead and first author; targeted at ICRA 2027.
 
-<!-- TODO: add photos - G1 lifting the manikin, instrumented CPAP mask, OptiTrack setup -->
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_mask.jpg" title="Instrumented CPAP mask" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The molded nasal mask with three embedded force sensors at the bridge and philtrum.</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_face.jpg" title="Facial safety zones" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Red: eye and mouth exclusion zones. Yellow: pressure-sensitive contact areas. Green: the nasal target.</div>
+    </div>
+</div>
