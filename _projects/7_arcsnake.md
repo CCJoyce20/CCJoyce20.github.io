@@ -13,14 +13,14 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 ### System design improvements
 
-Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%** through mechanical design improvements — including redesigning the screw shell.
+Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%**. The gains came from three places: raising the torque ratio, aligning the belt drive, and cutting parasitic friction — shortening the whole drive stack and relieving surfaces that were rubbing. I built a physical testbed to validate each change rather than trusting the CAD.
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/screw_shell.jpg" title="Screw shell design" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Screw shell redesign for the propulsion unit.</div>
+<div class="caption">Screw block redesign — a shorter, cleaner stack with less rubbing surface.</div>
 
 ### Screw characterization testbed — ICRA 2023
 
-To find out which screw parameters actually matter, I engineered a mobile testbed that isolates a single screw sub-unit and measures its performance across media: constrained axial measurement with a 6-DOF force-torque sensor, structurally validated in SolidWorks FEA before fabrication, and portable enough to run in real terrain rather than only in a lab.
+To find out which screw parameters actually matter, I engineered a mobile testbed that isolates a single screw sub-unit and measures its performance across media: constrained axial measurement with a 6-DOF force-torque sensor, a swappable bottom module so different screw configurations drop straight in, built-in electronics bays and wiring paths, and SolidWorks FEA validation before fabrication. It is portable enough to run in real terrain rather than only in a lab.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -35,7 +35,7 @@ The resulting characterization across gravel, grass, sand, wood chips, dirt, and
 
 ### NASU — ISRR 2024
 
-[NASU (Novel Actuating Screw Unit)](https://arxiv.org/abs/2310.00184) is the first Archimedes-screw locomotion design with a **dynamically reconfigurable angle of attack**, letting one screw retune itself for the medium it is currently in rather than compromising across all of them (first author, ISRR 2024).
+[NASU (Novel Actuating Screw Unit)](https://arxiv.org/abs/2310.00184) is the first Archimedes-screw locomotion design with a **dynamically reconfigurable angle of attack**, letting one screw retune its pitch for the medium it is currently in rather than compromising across all of them. The mechanism is origami-inspired: a Kresling unit produces the coupled rotation and translation that changes the screw pitch (first author, ISRR 2024).
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_mech.jpg" title="NASU mechanism overview" class="img-fluid rounded z-depth-1" %}
 <div class="caption">NASU mechanism overview.</div>
