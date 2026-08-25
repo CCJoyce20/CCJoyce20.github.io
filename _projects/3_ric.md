@@ -37,6 +37,9 @@ I worked with **four neonatal clinicians** — a NICU nurse, a NICU physician, a
 
 We benchmark three ways of performing each task — **direct human handling, teleoperation, and an autonomous learned policy (ACT)** — on a Unitree G1 humanoid, using an instrumented infant manikin tracked by OptiTrack, and a Fisher & Paykel nasal mask I rebuilt with embedded force sensors to read interface pressure at the contact points clinicians actually worry about. Every trial is verified against the thresholds above, so "safe" is a measurement rather than an impression.
 
+{% include figure.liquid loading="lazy" path="assets/img/projects/ric_pipeline.png" title="RIC system pipeline" class="img-fluid rounded z-depth-1" %}
+<div class="caption">The pipeline: OptiTrack tracks the manikin and computes the safety quantities; teleoperated demonstrations become training data; the learned policy runs on the humanoid and is scored against the same thresholds.</div>
+
 Project lead and first author; targeted at ICRA 2027.
 
 <div class="row">
