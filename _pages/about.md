@@ -34,8 +34,8 @@ I started in mechanical design and now work up the stack: autonomy, controls, an
 
 ### Why this work
 
-When Hurricane Sandy hit New Jersey, my grandparents could not evacuate: my grandfather had suffered strokes and could no longer walk on his own. I had just talked my way onto my school's robotics team a year early, and I remember being certain that if I had been older and known more, I could have built something to get them out. That thought is why I went into engineering, and it is why the questions I keep returning to are about robots helping people who cannot help themselves, which, it turns out, is mostly a question about how a machine can safely touch someone.
+When Hurricane Sandy hit New Jersey, my grandparents were unable to evacuate. I had just talked my way onto my school's robotics team a year early, and I remember daydreaming about building a robot that could go in and rescue them. That thought is why I went into engineering, and it is why the questions I keep returning to are about robots helping people who cannot help themselves.
 
 ### Outside the lab
 
-I cook and bake constantly, mostly reverse-engineering things to be lower-calorie and higher-protein than they have any right to be. Otherwise I'm in the gym lifting, slowly talking myself into running, or playing whatever sport I can get a group together for, soccer, basketball, pickleball, with hiking when I want something slower. I support Manchester United and Williams Racing, which between them have taught me more about patience than any research project. And I will happily lose an afternoon to Star Wars.
+I love to cook and bake when I have time, and I try to optimize for lower-calorie and high protein as much as possible. Otherwise I enjoy lifting in the gym, running exceedingly slow, or playing whatever sport I can get a group together for: soccer, basketball, pickleball, and hiking when we want something more. I support Manchester United and Williams Racing, which have taught me more about patience than any research project. And I have watched every piece of Star Wars content.
