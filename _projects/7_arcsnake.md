@@ -44,14 +44,7 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
     </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/media_gravel.jpg" title="Screws driving through gravel" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">Screws characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations.</div>
-
-That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://ieeexplore.ieee.org/document/10160777) (co-first author, ICRA 2023). The testbed has since been reused by the lab for further screw-locomotion studies beyond that paper.
+Screws were characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations. That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://ieeexplore.ieee.org/document/10160777) (co-first author, ICRA 2023). The testbed has since been reused by the lab for further screw-locomotion studies beyond that paper.
 
 ### NASU: ISRR 2024
 

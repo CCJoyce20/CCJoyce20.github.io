@@ -38,4 +38,4 @@ When Hurricane Sandy hit New Jersey, my grandparents were unable to evacuate. I 
 
 ### Outside the lab
 
-I love to cook and bake when I have time, and I try to optimize for lower-calorie and high protein as much as possible. Otherwise I enjoy lifting in the gym, running exceedingly slow, or playing whatever sport I can get a group together for: soccer, basketball, pickleball, and hiking when we want something more. I support Manchester United and Williams Racing, which have taught me more about patience than any research project. And I have watched every piece of Star Wars content.
+I love to cook and bake when I have time, and I try to optimize for lower-calorie and high protein as much as possible. Otherwise I enjoy lifting in the gym, running exceedingly slow, or playing whatever sport I can get a group together for: soccer, basketball, pickleball, and hiking when we want something more chill. I support Manchester United and Williams Racing, which have taught me more about patience than any research project. And I have watched every piece of Star Wars content.
