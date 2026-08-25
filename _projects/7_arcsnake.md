@@ -42,23 +42,18 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_cad.jpg" title="NASU in CAD" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_shell.jpg" title="Screw shell design" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Screw shell improvements I designed for the propulsion unit.</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_mech.jpg" title="NASU mechanism overview" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">NASU mechanism overview.</div>
     </div>
 </div>
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_media.png" title="NASU across media: gravel, sand, rocks, grass, mulch" class="img-fluid rounded z-depth-1" %}
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_prototype.jpg" title="Early NASU prototype with brushless drive" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <video controls preload="metadata" style="width:100%;border-radius:8px;">
-            <source src="/assets/video/isrr2024_nasu.mp4" type="video/mp4">
-        </video>
-        <div class="caption">NASU — ISRR 2024 video</div>
-    </div>
-</div>
+<video controls preload="metadata" style="width:100%;border-radius:8px;">
+    <source src="/assets/video/isrr2024_nasu.mp4" type="video/mp4">
+</video>
+<div class="caption">NASU — ISRR 2024 video</div>
