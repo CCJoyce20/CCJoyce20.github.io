@@ -2,7 +2,7 @@
 layout: page
 title: "RIC: Can Robots Handle Infants?"
 description: "Robotic Infant Care — the first framework for robots that physically handle babies (project lead; first author, ICRA 2027)"
-img: assets/img/projects/ric_cover.jpg
+img: assets/img/projects/ric_pickup.jpg
 importance: 3
 category: research
 ---
@@ -23,15 +23,8 @@ We picked the two interventions that matter most:
 
 The two fail in completely different ways — inertial and postural on one side, sustained contact pressure on the other — which is exactly why a safety methodology for infant handling has to generalize beyond a single task.
 
-<div class="row">
-    <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ric_cover.jpg" title="Unitree G1 holding the infant manikin" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/ric_pickup.jpg" title="Safe and unsafe pickup" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Top: head–torso pitch beyond the clinical limit, compromising the airway. Bottom: a lift within limits, the hand supporting both neck and back.</div>
-    </div>
-</div>
+{% include figure.liquid loading="eager" path="assets/img/projects/ric_pickup.jpg" title="Safe and unsafe pickup" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Top: head–torso pitch beyond the clinical limit, compromising the airway. Bottom: a lift within limits, the hand supporting both neck and back.</div>
 
 ### Turning clinical judgment into numbers
 
