@@ -16,9 +16,9 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-sm-6">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_system.jpg" title="ARCSnake V2 full system" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">The full ARCSnake V2 system: screw-propelled segments joined by actuated joints, so the robot both crawls and swims.</div>
+    <div class="col-sm-10">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_built.jpg" title="ARCSnake V2 fully assembled" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">ARCSnake V2 fully assembled with its land screw shells on: screw-propelled segments joined by actuated U-joints, so the robot both crawls and swims.</div>
     </div>
 </div>
 
