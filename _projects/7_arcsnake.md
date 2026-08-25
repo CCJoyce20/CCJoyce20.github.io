@@ -37,7 +37,14 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
     </div>
 </div>
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/screw_media.png" title="Screw testing across media" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/testbed_gravel.jpg" title="Paired screws on the testbed in gravel" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_media.png" title="Screw testing across media" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 <div class="caption">Screws characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations.</div>
 
 That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://arxiv.org/abs/2301.10878) (co-first author, ICRA 2023).
