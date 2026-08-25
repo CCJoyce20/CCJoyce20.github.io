@@ -15,8 +15,12 @@ Robots that reposition, dress, or rescue people have to move human limbs, but de
 
 The shoulder isn't a simple ball joint. Its reachable range depends on the configuration you're already in, how far you can rotate the arm changes with how far it's raised, and the limits are *coupled* across axes. A device that renders fixed per-axis limits doesn't feel like a shoulder.
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/hs_limits.jpg" title="Complex coupled joint limits" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Shoulder joint limits are coupled: the reachable range on one axis depends on where the others are.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-8">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_limits.jpg" title="Complex coupled joint limits" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Shoulder joint limits are coupled: the reachable range on one axis depends on where the others are.</div>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -29,15 +33,23 @@ The shoulder isn't a simple ball joint. Its reachable range depends on the confi
     </div>
 </div>
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/hs_coupling.jpg" title="Coupled joint limits" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The rendered range of motion shifts with humeral rotation, reproducing the coupling that makes a real shoulder feel like a shoulder.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-8">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_coupling.jpg" title="Coupled joint limits" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The rendered range of motion shifts with humeral rotation, reproducing the coupling that makes a real shoulder feel like a shoulder.</div>
+    </div>
+</div>
 
 ### The mechanism
 
 An inverted U-joint arrangement gives the device its anatomically-shaped workspace, with one motor-encoder module per anatomical degree of freedom, so actuator space maps directly onto shoulder joint space, and there's no kinematic solving between what the motors do and what the joint does.
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/hs_renderreal.jpg" title="Singular joint center" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The inverted U-joint places all rotation axes through a single joint center that matches the human shoulder's, in CAD and in the built device.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-7">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_renderreal.jpg" title="Singular joint center" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The inverted U-joint places all rotation axes through a single joint center that matches the human shoulder's, in CAD and in the built device.</div>
+    </div>
+</div>
 
 ### Testing robots on it
 

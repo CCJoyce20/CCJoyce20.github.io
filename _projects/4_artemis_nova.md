@@ -9,8 +9,12 @@ category: product development
 
 ArtemisAI's NOVA trial needs a camera looking into an incubator, held steady, for hours, at the bedside of the most fragile patients in the hospital. Version zero was a consumer gooseneck phone holder. My job was turning that into hardware a hospital can actually deploy.
 
-{% include figure.liquid loading="eager" path="assets/img/projects/artemis_mount.jpg" title="Camera mount over a NICU incubator" class="img-fluid rounded z-depth-1" %}
-<div class="caption">An earlier version of the mount positioned over an incubator, holding the camera that feeds ArtemisAI's pose-tracking model, here running on a training manikin rather than a patient.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-7">
+        {% include figure.liquid loading="eager" path="assets/img/projects/artemis_mount.jpg" title="Camera mount over a NICU incubator" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">An earlier version of the mount positioned over an incubator, holding the camera that feeds ArtemisAI's pose-tracking model, here running on a training manikin rather than a patient.</div>
+    </div>
+</div>
 
 ### Three constraints that shaped everything
 

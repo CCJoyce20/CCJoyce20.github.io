@@ -25,8 +25,12 @@ We picked the two interventions that matter most:
 
 The two fail in completely different ways: inertial and postural on one side, sustained contact pressure on the other. That is exactly why a safety methodology for infant handling has to generalize beyond a single task.
 
-{% include figure.liquid loading="eager" path="assets/img/projects/ric_pickup.jpg" title="Safe and unsafe pickup" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Top: head–torso pitch beyond the clinical limit, compromising the airway. Bottom: a lift within limits, the hand supporting both neck and back.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-9">
+        {% include figure.liquid loading="eager" path="assets/img/projects/ric_pickup.jpg" title="Safe and unsafe pickup" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Top: head–torso pitch beyond the clinical limit, compromising the airway. Bottom: a lift within limits, the hand supporting both neck and back.</div>
+    </div>
+</div>
 
 ### Turning clinical judgment into numbers
 
@@ -39,8 +43,12 @@ I worked with **four neonatal clinicians** (a NICU nurse, a NICU physician, and 
 
 We benchmark three ways of performing each task, **direct human handling, teleoperation, and an autonomous learned policy (ACT)**, on a Unitree G1 humanoid, using an instrumented infant manikin tracked by OptiTrack, and a Fisher & Paykel nasal mask I rebuilt with embedded force sensors to read interface pressure at the contact points clinicians actually worry about. Every trial is verified against the thresholds above, so "safe" is a measurement rather than an impression.
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/ric_pipeline.png" title="RIC system pipeline" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The pipeline: OptiTrack tracks the manikin and computes the safety quantities; teleoperated demonstrations become training data; the learned policy runs on the humanoid and is scored against the same thresholds.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-9">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_pipeline.png" title="RIC system pipeline" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The pipeline: OptiTrack tracks the manikin and computes the safety quantities; teleoperated demonstrations become training data; the learned policy runs on the humanoid and is scored against the same thresholds.</div>
+    </div>
+</div>
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/ric_mask.jpg" title="Instrumented CPAP mask and facial safety zones" class="img-fluid rounded z-depth-1" %}
 <div class="caption">Left: the molded nasal mask, green marking the three embedded force sensors. Right: the safety map on the face, with red exclusion zones over the eyes and mouth, yellow pressure-sensitive areas, and the green nasal target the mask must reach.</div>

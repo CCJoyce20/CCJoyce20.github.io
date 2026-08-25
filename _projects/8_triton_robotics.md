@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Triton Robotics
-description: "Team President / Advisor: scaled UCSD's combat & competition robotics team 20 → 80+"
+description: "Team President / Advisor: scaled UCSD's competitive robotics team 20 → 80+"
 img: assets/img/projects/triton.jpg
 importance: 8
 category: leadership & coursework

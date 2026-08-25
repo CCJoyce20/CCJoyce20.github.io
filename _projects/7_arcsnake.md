@@ -11,8 +11,12 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 {% include figure.liquid loading="eager" path="assets/img/projects/arcsnake.jpg" title="ARCSnake amphibious testing" class="img-fluid rounded z-depth-1" %}
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_system.jpg" title="ARCSnake V2 full system" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The full ARCSnake V2 system: screw-propelled segments joined by actuated joints, so the robot both crawls and swims.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_system.jpg" title="ARCSnake V2 full system" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The full ARCSnake V2 system: screw-propelled segments joined by actuated joints, so the robot both crawls and swims.</div>
+    </div>
+</div>
 
 I also led electrical and mechanical integration for validating the full robot in underwater testing.
 
@@ -20,8 +24,12 @@ I also led electrical and mechanical integration for validating the full robot i
 
 Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%**. The gains came from three places: raising the torque ratio, aligning the belt drive, and cutting parasitic friction, shortening the whole drive stack and relieving surfaces that were rubbing. I built a physical testbed to validate each change rather than trusting the CAD.
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/belt_drive.png" title="Screw block belt drive" class="img-fluid rounded z-depth-1" %}
-<div class="caption">The screw block drive: the belt (green) transmits motor torque to the screw. Aligning this drive and shortening the stack around it is where the torque gains came from.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-9">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/belt_drive.png" title="Screw block belt drive" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">The screw block drive: the belt (green) transmits motor torque to the screw. Aligning this drive and shortening the stack around it is where the torque gains came from.</div>
+    </div>
+</div>
 
 ### The screw testbed --- *Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media*
 
@@ -49,8 +57,12 @@ That characterization became [Mobility Analysis of Screw-Based Locomotion and Pr
 
 [NASU (Novel Actuating Screw Unit)](https://arxiv.org/abs/2310.00184) is the first Archimedes-screw locomotion design with a **dynamically reconfigurable angle of attack**, letting one screw retune its pitch for the medium it is currently in rather than compromising across all of them. The mechanism is origami-inspired: a Kresling unit produces the coupled rotation and translation that changes the screw pitch (first author, ISRR 2024).
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/nasu_mech.jpg" title="NASU mechanism overview" class="img-fluid rounded z-depth-1" %}
-<div class="caption">NASU mechanism overview.</div>
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_mech.jpg" title="NASU mechanism overview" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">NASU mechanism overview.</div>
+    </div>
+</div>
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_media.png" title="NASU across media: gravel, sand, rocks, grass, mulch" class="img-fluid rounded z-depth-1" %}
 
