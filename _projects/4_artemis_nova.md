@@ -3,6 +3,7 @@ layout: page
 title: NICU Camera Mount → NOVA Trial
 description: "ArtemisAI Labs: from consumer phone holder to hospital-deployable hardware, now fielding a Phase II neonatal trial"
 img: assets/img/projects/artemis_mount.jpg
+date_range: Jan 2026 to present
 importance: 4
 category: product development
 ---

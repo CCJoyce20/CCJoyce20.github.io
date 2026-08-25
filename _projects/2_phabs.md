@@ -3,6 +3,7 @@ layout: page
 title: PHABS
 description: "Portable Haptic Assisted Bimanual System: teaching robots the forces that video can't record (project lead; first author, ICRA 2027 submission)"
 img: assets/img/projects/phabs.jpg
+date_range: 2025 to present
 importance: 2
 category: research
 ---

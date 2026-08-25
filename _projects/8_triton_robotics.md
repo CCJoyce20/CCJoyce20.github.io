@@ -3,6 +3,7 @@ layout: page
 title: Triton Robotics
 description: "Team President / Advisor: scaled UCSD's competitive robotics team 20 → 80+"
 img: assets/img/projects/triton.jpg
+date_range: Jun 2020 to Jun 2023
 importance: 8
 category: leadership & coursework
 ---

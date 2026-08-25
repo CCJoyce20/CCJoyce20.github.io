@@ -3,6 +3,7 @@ layout: page
 title: Autonomous RC Car
 description: "Course project: vision-based autonomy on embedded hardware"
 img: assets/img/projects/rc_car.jpg
+date_range: Apr 2024 to Jun 2024
 importance: 9
 category: leadership & coursework
 ---

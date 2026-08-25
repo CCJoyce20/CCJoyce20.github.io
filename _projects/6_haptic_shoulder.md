@@ -3,6 +3,7 @@ layout: page
 title: Haptic Shoulder
 description: "A phantom shoulder so robots can practice on something other than a person: ICRA 2025 (co-first author), provisional patent"
 img: assets/img/projects/haptic_shoulder.jpg
+date_range: Jan 2024 to Jun 2024
 importance: 6
 category: research
 ---

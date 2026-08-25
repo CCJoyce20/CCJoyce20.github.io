@@ -3,6 +3,7 @@ layout: page
 title: Humanoids for Medicine
 description: "Can general-purpose humanoids do clinical work? Three studies, ending in Nature 2026."
 img: assets/img/projects/nature_surgery.webp
+date_range: 2024 to 2026
 importance: 1
 category: research
 ---

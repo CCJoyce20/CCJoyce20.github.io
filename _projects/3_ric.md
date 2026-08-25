@@ -3,6 +3,7 @@ layout: page
 title: "RIC: Can Robots Handle Infants?"
 description: "Robotic Infant Care: the first framework for robots that physically handle babies (project lead; first author, ICRA 2027 submission)"
 img: assets/img/projects/ric_pickup.jpg
+date_range: 2024 to present
 importance: 3
 category: research
 ---

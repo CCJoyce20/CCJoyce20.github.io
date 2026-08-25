@@ -3,6 +3,7 @@ layout: page
 title: ARCSnake
 description: "Amphibious screw-propelled snake robot with NASA JPL: IROS 2026, ISRR 2024, ICRA 2023"
 img: assets/img/projects/arcsnake.jpg
+date_range: Jun 2021 to Sep 2025
 importance: 7
 category: research
 ---
@@ -68,10 +69,8 @@ That characterization became [Mobility Analysis of Screw-Based Locomotion and Pr
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/nasu_media.png" title="NASU across media: gravel, sand, rocks, grass, mulch" class="img-fluid rounded z-depth-1" %}
 
-<video controls preload="metadata" style="width:100%;border-radius:8px;">
-    <source src="/assets/video/isrr2024_nasu.mp4" type="video/mp4">
-</video>
-<div class="caption">NASU, ISRR 2024 video (<a href="https://www.youtube.com/watch?v=6ElKiwgMTSA">also on YouTube</a>)</div>
+<iframe src="https://www.youtube.com/embed/6ElKiwgMTSA" style="width:100%;aspect-ratio:16/9;border:0;border-radius:8px;" allowfullscreen title="NASU ISRR 2024 video"></iframe>
+<div class="caption">NASU, ISRR 2024 video.</div>
 
 ### The Voodoo Doll
 
