@@ -36,12 +36,15 @@ A surgeon drives the humanoid from a da Vinci-style console (stereo headset, MTM
 {% include figure.liquid loading="lazy" path="assets/img/projects/nature_system.webp" title="Teleoperation system and tool mounts" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The operating console, the G1 with endoscope and wristed instruments at their RCM points, and the tool-mount hardware actuating the instruments' handles.</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-sm-9">
         {% include figure.liquid loading="lazy" path="assets/img/projects/nature_tool_kinematics.webp" title="Instrument kinematics" class="img-fluid rounded z-depth-1" %}
         <div class="caption">Mapping operator commands through the instrument's handle degrees of freedom about the RCM.</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm-7">
         {% include figure.liquid loading="lazy" path="assets/img/projects/nature_workspace.webp" title="Workspace analysis" class="img-fluid rounded z-depth-1" %}
         <div class="caption">Simulated hand and instrument workspaces across RCM placements, benchmarked against the dVRK, with tracking-accuracy validation.</div>
     </div>
