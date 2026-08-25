@@ -42,15 +42,7 @@ We benchmark three ways of performing each task, **direct human handling, teleop
 {% include figure.liquid loading="lazy" path="assets/img/projects/ric_pipeline.png" title="RIC system pipeline" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The pipeline: OptiTrack tracks the manikin and computes the safety quantities; teleoperated demonstrations become training data; the learned policy runs on the humanoid and is scored against the same thresholds.</div>
 
-Project lead and first author; targeted at ICRA 2027.
+{% include figure.liquid loading="lazy" path="assets/img/projects/ric_mask.jpg" title="Instrumented CPAP mask and facial safety zones" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Left: the molded nasal mask, green marking the three embedded force sensors. Right: the safety map on the face, with red exclusion zones over the eyes and mouth, yellow pressure-sensitive areas, and the green nasal target the mask must reach.</div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_mask.jpg" title="Instrumented CPAP mask" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">The molded nasal mask with three embedded force sensors at the bridge and philtrum.</div>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_exclusion.jpg" title="Facial safety zones" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">Exclusion zones around the eyes and mouth, the pressure-sensitive contact areas, and the nasal target the mask must reach.</div>
-    </div>
-</div>
+Project lead and first author; targeted at ICRA 2027.
