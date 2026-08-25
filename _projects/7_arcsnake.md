@@ -11,15 +11,14 @@ Four years on an amphibious, screw-propelled snake robot developed with NASA JPL
 
 {% include figure.liquid loading="eager" path="assets/img/projects/arcsnake.jpg" title="ARCSnake amphibious testing" class="img-fluid rounded z-depth-1" %}
 
-{% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_full.png" title="ARCSnake V2 full system" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="lazy" path="assets/img/projects/arcsnake_system.jpg" title="ARCSnake V2 full system" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The full ARCSnake V2 system: screw-propelled segments joined by actuated joints, so the robot both crawls and swims.</div>
+
+I also led electrical and mechanical integration for validating the full robot in underwater testing.
 
 ### System design improvements
 
 Across ARCSnake V2's development I worked on the propulsion system, **increasing screw output torque by 40%**. The gains came from three places: raising the torque ratio, aligning the belt drive, and cutting parasitic friction — shortening the whole drive stack and relieving surfaces that were rubbing. I built a physical testbed to validate each change rather than trusting the CAD.
-
-{% include figure.liquid loading="lazy" path="assets/img/projects/screw_shell.jpg" title="Screw shell design" class="img-fluid rounded z-depth-1" %}
-<div class="caption">Screw block redesign — a shorter, cleaner stack with less rubbing surface.</div>
 
 {% include figure.liquid loading="lazy" path="assets/img/projects/belt_drive.png" title="Screw block belt drive" class="img-fluid rounded z-depth-1" %}
 <div class="caption">The screw block drive: the belt (green) transmits motor torque to the screw. Aligning this drive and shortening the stack around it is where the torque gains came from.</div>
@@ -30,7 +29,7 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_labeled.png" title="Experimental mobile screw locomotion testbed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_real.jpg" title="Experimental mobile screw locomotion testbed" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_fea.png" title="SolidWorks FEA of the testbed" class="img-fluid rounded z-depth-1" %}
@@ -39,10 +38,7 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/testbed_gravel.jpg" title="Paired screws on the testbed in gravel" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_media.png" title="Screw testing across media" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/media_gravel.jpg" title="Screws driving through gravel" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">Screws characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations.</div>
@@ -67,16 +63,14 @@ That characterization became [Mobility Analysis of Screw-Based Locomotion and Pr
 
 A 10-DOF joint-matching teleoperation controller I built to command ARCSnake V2's joint positions — lockable U-joints with magnetic encoders, so an operator poses the controller and the robot mirrors it.
 
+{% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_full_rot.jpg" title="The full 10-DOF Voodoo Doll controller" class="img-fluid rounded z-depth-1" %}
+<div class="caption">The full 10-DOF controller laid out.</div>
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_full.jpg" title="The full 10-DOF Voodoo Doll controller" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_hanging.jpg" title="Voodoo Doll on its rig" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_doll.jpg" title="A single Voodoo Doll joint module" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/voodoo_doll.jpg" title="A single joint module" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-I also led electrical and mechanical integration for validating the full robot in underwater testing.
