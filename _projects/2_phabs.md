@@ -2,7 +2,7 @@
 layout: page
 title: PHABS
 description: "Portable Haptic Assisted Bimanual System — teaching robots the forces that video can't record (project lead; first author, ICRA 2027)"
-# img: assets/img/projects/phabs.jpg  # TODO: add cover image
+img: assets/img/projects/phabs.jpg
 importance: 2
 category: medical robotics
 ---
@@ -10,6 +10,9 @@ category: medical robotics
 Manipulation policies are trained on data that is blind to force. Human video carries no force signal, simulation invents it from designer-chosen contact parameters, and teleoperation usually withholds it from the demonstrator. For tasks where success is set by *how hard* you press — peeling a seal, opening a bag, handling something fragile — the demonstrations we train on are missing the variable that decides the outcome.
 
 PHABS is my answer to that: a handheld bimanual teleoperation device built specifically to produce **force-annotated demonstrations** for imitation learning. It renders per-hand pinch force and, uniquely, the **internal force between the two hands** on a shared object — the signal that distinguishes crushing an object from merely supporting it, which no handheld bimanual device had rendered before.
+
+{% include figure.liquid loading="eager" path="assets/img/projects/phabs.jpg" title="PHABS prototype with the Anvil OpenArm follower" class="img-fluid rounded z-depth-1" %}
+<div class="caption">Left: the Anvil OpenArm dual-arm follower. Right: an early PHABS prototype held in both hands — the two pincher assemblies coupled through the gimbal rings and shared rails that carry the inter-hand squeeze channel (shown before electronics and actuators were installed).</div>
 
 **Leading the project, I work from the data requirements backwards.** What the learning pipeline needs determines the design: which channels are worth rendering, what has to be logged and at what rate, and which hardware compromises are acceptable because they don't degrade the resulting dataset.
 
