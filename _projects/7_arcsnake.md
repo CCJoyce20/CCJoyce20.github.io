@@ -44,7 +44,16 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
     </div>
 </div>
 
-Screws were characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations. That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://ieeexplore.ieee.org/document/10160777) (co-first author, ICRA 2023). The testbed has since been reused by the lab for further screw-locomotion studies beyond that paper.
+Screws were characterized across gravel, grass, sand, wood chips, dirt, and concrete, in single and paired configurations.
+
+<div class="row justify-content-center">
+    <div class="col-sm-9">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_results.png" title="Mechanical advantage across media" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Mechanical advantage against input torque in each medium, error bars across repeated runs. The useful finding is the shape, not the peak: screws are inefficient at low torque everywhere, and most media only cross the 25% efficiency line above roughly 1.25 Nm. That argues for gearing a screw robot to sit high on this curve rather than sizing it for the lightest expected load, and it is why grass and dirt, which never get there, are the cases where shell geometry matters more than raw torque.</div>
+    </div>
+</div>
+
+That characterization became [Mobility Analysis of Screw-Based Locomotion and Propulsion in Various Media](https://ieeexplore.ieee.org/document/10160777) (co-first author, ICRA 2023). The testbed has since been reused by the lab for further screw-locomotion studies beyond that paper.
 
 ### NASU: ISRR 2024
 

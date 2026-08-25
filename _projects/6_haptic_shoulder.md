@@ -64,6 +64,13 @@ An inverted U-joint arrangement gives the device its anatomically-shaped workspa
     </div>
 </div>
 
+<div class="row justify-content-center">
+    <div class="col-sm-6">
+        {% include figure.liquid loading="lazy" path="assets/img/projects/hs_force.png" title="Force with and without rendered joint limits" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">Interface force through one assisted-motion trial, with and without the device rendering joint limits. Peak force rises only from 10.17 N to 10.84 N, about 7%. That small gap is the useful result: rendering realistic limits does not make the interaction meaningfully harsher, so the phantom can be used to develop and tune a policy without the added forces themselves becoming a confound.</div>
+    </div>
+</div>
+
 Published at [ICRA 2025](https://ieeexplore.ieee.org/document/11127862) (co-first author). Provisional patent in progress.
 
 <iframe src="https://www.youtube.com/embed/MKJiqIRkErY" style="width:100%;aspect-ratio:16/9;border:0;border-radius:8px;" allowfullscreen title="Haptic Shoulder video"></iframe>

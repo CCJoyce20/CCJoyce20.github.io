@@ -57,4 +57,10 @@ We benchmark three ways of performing each task, **direct human handling, teleop
     </div>
 </div>
 
+### What went wrong, and what it taught us
+
+The first hands we tried failed in a way that turned out to be the most informative result of the project. A person lifting an infant works their fingers underneath and wiggles them to break contact friction with the bedding before committing to the lift, which is what lets the hand reach a supporting position under the head and back before any weight transfers. Our candidate robot hands could not do this: they lacked the degrees of freedom, and their quasi-backdrivable spring mechanisms caught on the bedding, making frictional sticking a dominant failure mode.
+
+We replaced them with smooth, low-friction plastic hands with no added degrees of freedom, trading dexterity for reliable entry. That forced a scoop strategy rather than pre-shaping around the infant, and it explains why cervical pitch, not head acceleration, is the binding safety constraint: a hand that cannot reach a supporting position before load transfer lifts with less of the head and back supported. The acceleration data confirms the failures are not caused by jerky motion. They are caused by the configuration the robot can reach before the lift begins, which points the next iteration at wrist force-torque sensing and compliant actuation rather than at smoother trajectories.
+
 Project lead and first author; targeted at ICRA 2027.
