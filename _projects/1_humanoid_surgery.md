@@ -4,7 +4,7 @@ title: Humanoids for Medicine
 description: "Can general-purpose humanoids do clinical work? Three studies, ending in Nature 2026."
 img: assets/img/projects/nature_surgery.webp
 importance: 1
-category: medical robotics
+category: research
 ---
 
 Purpose-built surgical robots cost millions and do one thing. A general-purpose humanoid is cheaper, mobile, and already shaped like the people whose tools and workspaces hospitals are built around. Can it actually do clinical work? Our lab spent three studies answering that, and I built the hardware that let a humanoid hold a surgeon's instruments in all of them.

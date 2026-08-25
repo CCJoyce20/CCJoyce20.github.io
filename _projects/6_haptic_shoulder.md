@@ -4,7 +4,7 @@ title: Haptic Shoulder
 description: "Biomechanically accurate shoulder phantom for pHRI — ICRA 2025 (co-first author), provisional patent"
 img: assets/img/projects/haptic_shoulder.jpg
 importance: 6
-category: medical robotics
+category: research
 ---
 
 Testing physical human–robot interaction on people is slow and risky, so we built the robot a patient: a shoulder phantom that reproduces human joint center, coupled kinematics, and configuration-dependent range of motion, the way a medical phantom stands in for anatomy. One motor-encoder module per anatomical degree of freedom gives a direct mapping between actuator space and shoulder joint space, enabling real-time pHRI testing and deployment onto physical robots without human subjects.

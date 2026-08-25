@@ -4,7 +4,7 @@ title: NICU Camera Mount → NOVA Trial
 description: "ArtemisAI Labs — from consumer phone holder to hospital-deployable hardware, now fielding a Phase II neonatal trial"
 img: assets/img/projects/artemis_mount.jpg
 importance: 4
-category: medical robotics
+category: product development
 ---
 
 ArtemisAI's NOVA trial needs a camera looking into an incubator, held steady, for hours, at the bedside of the most fragile patients in the hospital. Version zero was a consumer gooseneck phone holder. My job was turning that into hardware a hospital can actually deploy.

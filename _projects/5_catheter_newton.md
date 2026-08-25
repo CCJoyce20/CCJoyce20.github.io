@@ -4,7 +4,7 @@ title: Autonomous Catheter Navigation
 description: "In progress — RL for endovascular robotics (ARPA-H & DARPA project)"
 # img: assets/img/projects/catheter.jpg  # TODO: add cover frame
 importance: 5
-category: medical robotics
+category: research
 ---
 
 > **This project is in active development.** It started in July 2026; this page will grow as results mature.

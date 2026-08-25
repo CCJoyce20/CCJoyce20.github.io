@@ -4,7 +4,7 @@ title: "RIC: Can Robots Handle Infants?"
 description: "Robotic Infant Care — the first framework for robots that physically handle babies (project lead; first author, ICRA 2027)"
 img: assets/img/projects/ric_cover.jpg
 importance: 3
-category: medical robotics
+category: research
 ---
 
 Roughly **500,000 US infants** are admitted to a neonatal intensive care unit each year, into care that is among the most physically and cognitively demanding in medicine — and among the least automated. The World Health Organization projects a shortage of **11 million healthcare workers by 2030**, and in the NICU specifically, burnout reaches **37%**.

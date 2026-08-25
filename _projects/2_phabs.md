@@ -4,7 +4,7 @@ title: PHABS
 description: "Portable Haptic Assisted Bimanual System — teaching robots the forces that video can't record (project lead; first author, ICRA 2027)"
 img: assets/img/projects/phabs.jpg
 importance: 2
-category: medical robotics
+category: research
 ---
 
 Manipulation policies are trained on data that is blind to force. Human video carries no force signal, simulation invents it from designer-chosen contact parameters, and teleoperation usually withholds it from the demonstrator. For tasks where success is set by *how hard* you press — peeling a seal, opening a bag, handling something fragile — the demonstrations we train on are missing the variable that decides the outcome.

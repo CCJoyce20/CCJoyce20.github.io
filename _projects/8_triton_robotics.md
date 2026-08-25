@@ -4,7 +4,7 @@ title: Triton Robotics
 description: "Team President / Advisor — scaled UCSD's combat & competition robotics team 20 → 80+"
 img: assets/img/projects/triton.jpg
 importance: 8
-category: other robotics
+category: leadership & coursework
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/projects/triton.jpg" title="Triton Robotics RoboMaster robots" class="img-fluid rounded z-depth-1" %}
