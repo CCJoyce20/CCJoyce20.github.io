@@ -27,7 +27,7 @@ To find out which screw parameters actually matter, I engineered a mobile testbe
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed.jpg" title="Experimental mobile screw locomotion testbed" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_labeled.png" title="Experimental mobile screw locomotion testbed" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="lazy" path="assets/img/projects/screw_testbed_fea.png" title="SolidWorks FEA of the testbed" class="img-fluid rounded z-depth-1" %}
