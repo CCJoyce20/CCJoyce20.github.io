@@ -9,6 +9,23 @@
 {% endif %}
 
 <style>
+  /* Section headings (publication years, project categories): the theme renders
+     these in the faint divider grey, which is hard to read. Use real text color. */
+  .publications h2.bibliography,
+  .projects h2.category {
+    color: var(--global-text-color);
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  /* Page section headings: make them stand out from body text. */
+  .post h2,
+  .post h3,
+  .post h4 {
+    font-weight: 700;
+    color: var(--global-text-color);
+  }
+
   /* Project card titles: larger, bolder, higher contrast */
   .projects .card-title {
     font-size: 1.25rem;
