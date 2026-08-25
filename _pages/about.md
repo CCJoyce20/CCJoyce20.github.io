@@ -24,7 +24,7 @@ latest_posts:
   enabled: false
 ---
 
-**Seeking a medical robotics R&D / New Product Development internship, available January–September 2027.**
+**Seeking a medical robotics R&D / New Product Development internship, available January–September 2027.** ([resume](/assets/pdf/CalvinJoyce_Resume.pdf) · [CV](/assets/pdf/CalvinJoyce_CV.pdf))
 
 I build robots that physically interact with people, and the hard part isn't the motion, it's the contact.
 

@@ -9,6 +9,8 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<p style="font-size:0.9rem;">* denotes equal contribution.</p>
+
 <div class="publications">
 
 {% bibliography %}

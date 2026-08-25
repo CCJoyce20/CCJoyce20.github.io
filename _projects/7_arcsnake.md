@@ -7,7 +7,7 @@ importance: 7
 category: research
 ---
 
-Four years on an amphibious, screw-propelled snake robot developed with NASA JPL, spanning my first paper to a full-system publication at [IROS 2026](https://arxiv.org/abs/2511.11970). Screw propulsion is one of the few locomotion methods that works across sand, water, gravel, and mud without changing hardware, which is why it was proposed for exploring the subsurface ocean of Saturn's moon Enceladus.
+Four years on an amphibious, screw-propelled snake robot developed with NASA JPL, spanning my first paper to the full-system publication at [IROS 2026](https://arxiv.org/abs/2511.11970), which was co-led by Sara Wickenhiser and Elizabeth Peiros (I am third author). Screw propulsion is one of the few locomotion methods that works across sand, water, gravel, and mud without changing hardware, which is why it was proposed for exploring the subsurface ocean of Saturn's moon Enceladus.
 
 <div class="row justify-content-center">
     <div class="col-sm-9">
