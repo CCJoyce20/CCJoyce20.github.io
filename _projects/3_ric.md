@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "RIC: Can Robots Handle Infants?"
-description: "Robotic Infant Care: benchmarking robots against the clinical safety limits for handling babies (project lead; first author, submitted to ICRA 2027)"
+title: "CRIB: Can Robots Handle Infants?"
+description: "Clinical Robotics for the Infant Bedside: benchmarking robots against the clinical safety limits for handling babies (project lead; first author, submitted to ICRA 2027)"
 img: assets/img/projects/ric_pickup.jpg
 date_range: 2024 to 2026
 importance: 3
@@ -33,7 +33,7 @@ We picked two interventions that fail in completely different ways:
 
 ### Turning clinical judgment into numbers
 
-The framework is called **CRIB** (Clinical Robotics for the Infant Bedside). I worked with **four neonatal clinicians** (a NICU physician, a NICU nurse, and two neonatal respiratory therapists) plus the literature they pointed us to, converting "safe handling" into quantities measured continuously on the infant rather than on the robot. That choice is what lets the same scoring apply to a human, a teleoperated robot, and a learned policy alike.
+**CRIB** stands for Clinical Robotics for the Infant Bedside. I worked with **four neonatal clinicians** (a NICU physician, a NICU nurse, and two neonatal respiratory therapists) plus the literature they pointed us to, converting "safe handling" into quantities measured continuously on the infant rather than on the robot. That choice is what lets the same scoring apply to a human, a teleoperated robot, and a learned policy alike.
 
 - **Pickup:** head–torso pitch (which governs whether the airway stays open) and head acceleration, both checked throughout the lift, not just at the end.
 - **CPAP:** contact force at each of three sites on the nose (the bridge and both sides of the base), capped at a bound drawn from measurements of NICU staff; exclusion zones around the eyes and mouth; and a 15-second deadline to reseat the mask, the tolerance clinicians work to before lost pressure risks lung injury.
@@ -66,7 +66,7 @@ We benchmarked four ways of doing each task: **direct human handling** (ten care
 
 <div class="row justify-content-center">
     <div class="col-sm-9">
-        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_pipeline.png" title="RIC system pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="lazy" path="assets/img/projects/ric_pipeline.png" title="CRIB system pipeline" class="img-fluid rounded z-depth-1" %}
         <div class="caption">The pipeline: OptiTrack tracks the manikin and computes the safety quantities; teleoperated demonstrations become training data; the learned policy runs on the robot and is scored against the same limits.</div>
     </div>
 </div>
